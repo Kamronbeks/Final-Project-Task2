@@ -24,27 +24,32 @@ This project is a robust **RESTful API** developed using **Spring Boot** to mana
 
 ![Image Alt](https://github.com/Kamronbeks/Final-Project-Task2/blob/ac0ce89f53846e8fc2424087c835b4d02f9a0cc5/Screenshot%202026-01-14%20084425.png)
 
-### 3️⃣ Update Existing Product
+### 3️⃣ Get All Products
+- **Endpoint:** `GET /api/v1/products`
+- **Description:** Returns a full list of all products in the database.
+- **Status Code:** `200 OK`
+
+### 4️⃣ Update Existing Product
 - **Endpoint:** `PUT /api/v1/products/{id}`
 - **Description:** Updates the name and attributes of an existing product.
 - **Status Code:** `200 OK`
 
 ![Image Alt](https://github.com/Kamronbeks/Final-Project-Task2/blob/071408609e9d071ac8a530c6bc299c1fe9d78fb1/Screenshot%202026-01-14%20084537.png)
 
-### 4️⃣ Delete a Product
+### 5️⃣ Delete a Product
 - **Endpoint:** `DELETE /api/v1/products/{id}`
 - **Description:** Permanently removes a product from the database catalog.
 - **Status Code:** `204 No Content`
 
 ![Image Alt](https://github.com/Kamronbeks/Final-Project-Task2/blob/2600fd1a239028b35fea93fd44dac86b9e0df602/Screenshot%202026-01-14%20084950.png)
 
-### 5️⃣ Database Management (H2 Console)
+### 6️⃣ Database Management (H2 Console)
 - **Console URL:** `http://localhost:8080/h2-console`
 - **Description:** Real-time data persistence monitoring. You can verify records in the `PRODUCTS` table directly.
 
 ![Image Alt](https://github.com/Kamronbeks/Final-Project-Task2/blob/0d37b01df72fa1793b859e565b581d42e294472d/Screenshot%202026-01-14%20084856.png)
 
-### 6️⃣ Exception Handling & Validation
+### 7️⃣ Exception Handling & Validation
 - **Description:** Custom error responses using `@ControllerAdvice`. If a product ID is not found, the API returns a structured error message.
 - **Status Code:** `404 Not Found`
 
