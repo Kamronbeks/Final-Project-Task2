@@ -28,6 +28,8 @@ This project is a robust **RESTful API** developed using **Spring Boot** to mana
 - **Endpoint:** `GET /api/v1/products`
 - **Description:** Returns a full list of all products in the database.
 - **Status Code:** `200 OK`
+  
+![Image Alt](  https://github.com/Kamronbeks/Final-Project-Task2/blob/46d10b2514f37b055864e2c2eab72808d367ac21/Screenshot%202026-01-14%20110304.png)
 
 ### 4️⃣ Update Existing Product
 - **Endpoint:** `PUT /api/v1/products/{id}`
