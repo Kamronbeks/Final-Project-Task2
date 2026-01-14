@@ -1,0 +1,51 @@
+# 📦 Product Management System - REST API
+
+This project is a robust **RESTful API** developed using **Spring Boot** to manage a product catalog. It demonstrates modern Java backend practices, including global exception handling and database integration.
+
+## 🛠 Tech Stack & Architecture
+- **Framework:** Spring Boot (Java 17)
+- **Database:** H2 In-Memory Database
+- **ORM:** Spring Data JPA (Hibernate)
+- **Tools:** Postman for API Testing, Maven for Dependency Management
+
+## 🚀 API Use Cases & HTTP Methods
+
+### 1️⃣ Create a New Product
+- **Endpoint:** `POST /api/v1/products`
+- **Description:** Adds a new product entry to the database and returns the created object.
+- **Status Code:** `201 Created`
+
+(image_c52cf6.png rasmini shu yerga yuklang)
+
+### 2️⃣ Retrieve Product by ID
+- **Endpoint:** `GET /api/v1/products/{id}`
+- **Description:** Fetches detailed information about a product using its unique identifier.
+- **Status Code:** `200 OK`
+
+(image_c583ac.png rasmini shu yerga yuklang)
+
+### 3️⃣ Update Existing Product
+- **Endpoint:** `PUT /api/v1/products/{id}`
+- **Description:** Updates the name and attributes of an existing product.
+- **Status Code:** `200 OK`
+
+(image_c58421.png rasmini shu yerga yuklang)
+
+### 4️⃣ Delete a Product
+- **Endpoint:** `DELETE /api/v1/products/{id}`
+- **Description:** Permanently removes a product from the database catalog.
+- **Status Code:** `204 No Content`
+
+(image_c5872a.png rasmini shu yerga yuklang)
+
+### 5️⃣ Database Management (H2 Console)
+- **Console URL:** `http://localhost:8080/h2-console`
+- **Description:** Real-time data persistence monitoring. You can verify records in the `PRODUCTS` table directly.
+
+(image_c60b45.png rasmini shu yerga yuklang)
+
+### 6️⃣ Exception Handling & Validation
+- **Description:** Custom error responses using `@ControllerAdvice`. If a product ID is not found, the API returns a structured error message.
+- **Status Code:** `404 Not Found`
+
+(image_c587c7.png rasmini shu yerga yuklang)
