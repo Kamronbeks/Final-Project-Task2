@@ -14,6 +14,7 @@ This project is a robust **RESTful API** developed using **Spring Boot** to mana
 - **Endpoint:** `POST /api/v1/products`
 - **Description:** Adds a new product entry to the database and returns the created object.
 - **Status Code:** `201 Created`
+- 
 ![Image Alt](https://github.com/Kamronbeks/Final-Project-Task2/blob/edaa75b4c93657af388f7c9e601e7c6dcd5cae04/Screenshot%202026-01-14%20084236.png)
 
 ### 2️⃣ Retrieve Product by ID
@@ -21,7 +22,7 @@ This project is a robust **RESTful API** developed using **Spring Boot** to mana
 - **Description:** Fetches detailed information about a product using its unique identifier.
 - **Status Code:** `200 OK`
 
-(image_c583ac.png rasmini shu yerga yuklang)
+![Image Alt](https://github.com/Kamronbeks/Final-Project-Task2/blob/ac0ce89f53846e8fc2424087c835b4d02f9a0cc5/Screenshot%202026-01-14%20084425.png)
 
 ### 3️⃣ Update Existing Product
 - **Endpoint:** `PUT /api/v1/products/{id}`
