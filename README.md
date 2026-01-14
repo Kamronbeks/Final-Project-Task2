@@ -36,7 +36,7 @@ This project is a robust **RESTful API** developed using **Spring Boot** to mana
 - **Description:** Permanently removes a product from the database catalog.
 - **Status Code:** `204 No Content`
 
-(image_c5872a.png rasmini shu yerga yuklang)
+![Image Alt](https://github.com/Kamronbeks/Final-Project-Task2/blob/2600fd1a239028b35fea93fd44dac86b9e0df602/Screenshot%202026-01-14%20084950.png)
 
 ### 5️⃣ Database Management (H2 Console)
 - **Console URL:** `http://localhost:8080/h2-console`
