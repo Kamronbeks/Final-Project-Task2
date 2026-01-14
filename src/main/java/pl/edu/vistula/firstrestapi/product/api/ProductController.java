@@ -9,6 +9,8 @@ import pl.edu.vistula.firstrestapi.product.api.request.UpdateProductRequest;
 import pl.edu.vistula.firstrestapi.product.api.response.ProductResponse;
 import pl.edu.vistula.firstrestapi.product.service.ProductService;
 
+import java.util.List;
+
 @RestController
 @RequestMapping("/api/v1/products")
 public class ProductController {
@@ -17,6 +19,13 @@ public class ProductController {
 
     public ProductController(ProductService service) {
         this.service = service;
+    }
+
+    @GetMapping
+    @Operation(summary = "Find all products")
+    public ResponseEntity<List<ProductResponse>> findAll() {
+        List<ProductResponse> responses = service.findAll();
+        return ResponseEntity.status(HttpStatus.OK).body(responses);
     }
 
     @PostMapping
