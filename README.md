@@ -48,4 +48,4 @@ This project is a robust **RESTful API** developed using **Spring Boot** to mana
 - **Description:** Custom error responses using `@ControllerAdvice`. If a product ID is not found, the API returns a structured error message.
 - **Status Code:** `404 Not Found`
 
-(image_c587c7.png rasmini shu yerga yuklang)
+![Image Alt](https://github.com/Kamronbeks/Final-Project-Task2/blob/8be6d4abf3e61ebfbaa0fa401eb45ae6ed7f329f/Screenshot%202026-01-14%20085043.png)
