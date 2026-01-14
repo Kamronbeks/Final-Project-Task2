@@ -29,7 +29,7 @@ This project is a robust **RESTful API** developed using **Spring Boot** to mana
 - **Description:** Updates the name and attributes of an existing product.
 - **Status Code:** `200 OK`
 
-(image_c58421.png rasmini shu yerga yuklang)
+![Image Alt]([(image_c58421.png rasmini shu yerga yuklang)](https://github.com/Kamronbeks/Final-Project-Task2/blob/071408609e9d071ac8a530c6bc299c1fe9d78fb1/Screenshot%202026-01-14%20084537.png)
 
 ### 4️⃣ Delete a Product
 - **Endpoint:** `DELETE /api/v1/products/{id}`
