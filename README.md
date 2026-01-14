@@ -42,7 +42,7 @@ This project is a robust **RESTful API** developed using **Spring Boot** to mana
 - **Console URL:** `http://localhost:8080/h2-console`
 - **Description:** Real-time data persistence monitoring. You can verify records in the `PRODUCTS` table directly.
 
-(image_c60b45.png rasmini shu yerga yuklang)
+![Image Alt](https://github.com/Kamronbeks/Final-Project-Task2/blob/0d37b01df72fa1793b859e565b581d42e294472d/Screenshot%202026-01-14%20084856.png)
 
 ### 6️⃣ Exception Handling & Validation
 - **Description:** Custom error responses using `@ControllerAdvice`. If a product ID is not found, the API returns a structured error message.
